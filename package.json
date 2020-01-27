@@ -1,0 +1,18 @@
+{
+  "name": "automationcookunity",
+  "version": "1.0.0",
+  "description": "automation cook unity - create account",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js --format json:./report/cucumber-json.report.json",
+    "report": "node index.js"
+  },
+  "author": "Sandra Jaimes",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^78.0.1",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}

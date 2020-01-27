@@ -1,0 +1,347 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Create Account",
+    "line": 1,
+    "id": "create-account",
+    "tags": [],
+    "uri": "features/CreateAccount.feature",
+    "elements": [
+      {
+        "id": "create-account;validate-that-a-user-can-complete-the-registration-of-a-new-account",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Validate that a user can complete the registration of a new account",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "The user open \"https://www.cookunity.com/\"",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4328000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Enter the 10001 and press on button GET 50 OFF",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "The user must be taken to select the plan",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10024000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "When the user selected the plan 4 meals and press choose this plan",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The user must be taken to select the options the preferences of delivery",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user selected the Wednesday",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The day Wednesday must be selected",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "The user selected the range from hours 2:00 PM - 5:00 PM",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The range from hours 2:00 PM - 5:00 PM must be selected",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "The user indicates that \"Yes\", it can be left with the doorman",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "The option \"Yes\" must be selected",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "The user press on continue",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "The user must be taken to the selection of the meals of his preference",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5019000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "The user must select the first meal of their choice",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "The first meal must be selected",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:136"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "The user must select the second meal of their choice",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:144"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "The second meal must be selected",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "The user must select the third meal of their choice",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:157"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "The third meal must be selected",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:164"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "The user must select the fourth meal of their choice",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:170"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "The fourth meal must be selected and press on continue",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "The user must be enter the first name",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:188"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "The user must be enter the last name",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:194"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "The user must be enter the email",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:199"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "The user must be enter the password and press on sign up with your email",
+            "match": {
+              "location": "features/step_definitions/CreateAccount.js:205"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
